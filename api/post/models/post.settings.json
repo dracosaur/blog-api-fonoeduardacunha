@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "name": "Post",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string",
+      "required": true
+    },
+    "Conteudo": {
+      "type": "richtext"
+    },
+    "Date": {
+      "type": "datetime"
+    },
+    "coverImage": {
+      "type": "string"
+    }
+  }
+}
